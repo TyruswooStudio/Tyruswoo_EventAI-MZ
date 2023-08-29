@@ -508,7 +508,7 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
  *   when setBln() is called later.
  * 
  * this.showBln(balloonType)
- *   This sets the belloon type, and then ALWAYS makes the corresponding
+ *   This sets the balloon type, and then ALWAYS makes the corresponding
  *   balloon pop up.
  * 
  * In the above methods, the parameter balloonType is a text string naming

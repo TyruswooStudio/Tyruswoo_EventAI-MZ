@@ -516,12 +516,12 @@ For more help using the Event AI plugin, see [Tyruswoo.com](https://www.tyruswoo
 
 ## Version History
 
-**v1.0**  11/5/2021
+**v1.0** - 11/5/2021
 - Event AI released for RPG Maker MZ!
 - Region Entry events and common events.
 - Treasure plugin command calls your treasure common event.
 
-**v2.0**  7/22/2022
+**v2.0** - 7/22/2022
 - Linked events added. When commands run that would usually affect
   the currently active event, they'll affect the linked event
   instead.
@@ -541,19 +541,19 @@ For more help using the Event AI plugin, see [Tyruswoo.com](https://www.tyruswoo
 - New script snippets: `$gameMap.name()`, `$gameMap.activeEvent()`,
   and `$gamePlayer.checkRegionChange()`
 
-**v2.1**  8/8/2022
+**v2.1** - 8/8/2022
 - Replaced v2.0's three Link Event plugin commands with one.
   This unified Link Event plugin command finds an event on any map,
   referenced by map ID or name. The event itself can also be
   referenced by ID or name, or found based on location or note.
 
-**v2.2**  10/22/2022
+**v2.2** - 10/22/2022
 - Fixed a bug that was keeping Event Touch trigger NPCs from
   initiating their own event.
 - Fixed a bug that affected the Link Event command's ability to
   identify a map by its name if the name contained a digit.
 
-**v2.3**  3/20/2023
+**v2.3** - 3/20/2023
 - Fixed a bug in which sometimes, on autosave load, the
   `Game_Map.eraseEvent` function would try to erase a non-existent
   event.

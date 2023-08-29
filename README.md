@@ -538,8 +538,8 @@ For more help using the Event AI plugin, see [Tyruswoo.com](https://www.tyruswoo
   NPC can initiate an Event Touch or Party Touch event.
 - Script support for movement routes: conditional branches, balloons,
   remembering starting location, and more.
-- New script snippets: $gameMap.name(), $gameMap.activeEvent(),
-  and $gamePlayer.checkRegionChange()
+- New script snippets: `$gameMap.name()`, `$gameMap.activeEvent()`,
+  and `$gamePlayer.checkRegionChange()`
 
 **v2.1**  8/8/2022
 - Replaced v2.0's three Link Event plugin commands with one.
@@ -555,7 +555,7 @@ For more help using the Event AI plugin, see [Tyruswoo.com](https://www.tyruswoo
 
 **v2.3**  3/20/2023
 - Fixed a bug in which sometimes, on autosave load, the
-  Game_Map.eraseEvent function would try to erase a non-existent
+  `Game_Map.eraseEvent` function would try to erase a non-existent
   event.
 - Fixed a bug in which linked events could include events that were
   erased.

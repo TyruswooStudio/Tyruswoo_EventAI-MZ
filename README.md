@@ -328,11 +328,11 @@ Use these in text commands to show information about the loot given by the
 most recent treasure plugin command. They're designed for your convenience
 in writing your Treasure Display Common Event.
 
-| Text code           | Description                                         |
-|---------------------|-----------------------------------------------------|
-| `<TreasureName>`    | The name of the item, weapon, or armor most recently given. If gold, the name is the currency term. |
-| <TreasureIcon>      | The icon, if any, corresponding to the treasure most given. |
-| <TreasureAmount>    | How many items, or how much gold, came from the most recent treasure. |
+| Text code          | Description                                         |
+|--------------------|-----------------------------------------------------|
+| `<TreasureName>`   | The name of the item, weapon, or armor most recently given. If gold, the name is the currency term. |
+| `<TreasureIcon>`   | The icon, if any, corresponding to the treasure most given. |
+| `<TreasureAmount>` | How many items, or how much gold, came from the most recent treasure. |
 
 Example sentence using our text codes (plus an RMMZ text code):
 

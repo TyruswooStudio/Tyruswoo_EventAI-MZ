@@ -34,12 +34,9 @@ Imported.Tyruswoo_EventAI = true;
 var Tyruswoo = Tyruswoo || {};
 Tyruswoo.EventAI = Tyruswoo.EventAI || {};
 
-// TODO: Add a section to help text explaining the Link Event plugin command,
-//       including its various location arguments.
-
 /*:
  * @target MZ
- * @plugindesc MZ v2.3 Additional event triggers and commands.
+ * @plugindesc MZ v2.3.1 Additional event triggers and commands.
  * @author Tyruswoo and McKathlin
  * @url https://www.tyruswoo.com
  * 
@@ -635,6 +632,9 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
  *          event.
  *        - Fixed a bug in which linked events could include events that were
  *          erased.
+ * 
+ * v2.3.1  8/30/2023
+ *        - This plugin is now free and open source under the MIT license.
  *
  * ============================================================================
  * MIT License

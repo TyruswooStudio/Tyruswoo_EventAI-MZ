@@ -560,6 +560,9 @@ For more help using the Event AI plugin, see [Tyruswoo.com](https://www.tyruswoo
 - Fixed a bug in which linked events could include events that were
   erased.
 
+**v2.3.1** - 8/30/2023
+- This plugin is now free and open source under the [MIT license](https://opensource.org/license/mit/).
+
 > **Remember, only you can build your dreams!**
 >
 > *Tyruswoo*

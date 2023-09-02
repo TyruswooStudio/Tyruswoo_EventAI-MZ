@@ -36,11 +36,15 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
 
 /*:
  * @target MZ
- * @plugindesc v1.0 Additional event triggers and commands.
+ * @plugindesc v1.0.1 Additional event triggers and commands.
  * @author Tyruswoo and McKathlin
  * @url https://www.tyruswoo.com
  * 
  * @help Tyruswoo Event AI for RPG Maker MZ
+ * 
+ * WARNING: This is an older plugin! It lacks features and improvements
+ * present in the latest version. You can get the latest version for free
+ * on Tyruswoo.com.
  *
  * Overview:  This plugin helps your events do more, with fewer commands.
  * * Place a Trigger: Region Entry command in your event, and stepping anywhere

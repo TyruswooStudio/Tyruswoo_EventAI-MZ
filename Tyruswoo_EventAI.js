@@ -256,7 +256,7 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
  *        - Region Entry events and common events
  *        - Treasure plugin command calls your treasure common event
  * 
- * v1.0.1  8/30/2023
+ * v1.0.1  9/1/2023
  *        - This plugin is now free and open source under the MIT license.
  * 
  * ============================================================================

@@ -3,13 +3,9 @@ It lacks the features and improvements of this plugin's later versions.
 To get the latest version for free, visit
 [Tyruswoo.com](https://www.tyruswoo.com).
 
-# Tyruswoo Event AI for RPG Maker MZ
+# Tyruswoo Event AI v1.0.1 for RPG Maker MZ
 
 Upgrade your events with new features!
-
-New triggers, linked events, if/else statements in move routes, self variables, and more!
-
-Make events that survey and interact with surroundings, either when triggered, or autonomously!
 
 ## Feature Overview
 
@@ -197,7 +193,7 @@ This condition is met if the event's image file is !Barrel.png:
 - Region Entry events and common events.
 - Treasure plugin command calls your treasure common event.
 
-**v1.0.1** - 8/30/2023
+**v1.0.1** - 9/1/2023
 - This older plugin is now free and open source under the [MIT license](https://opensource.org/license/mit/).
 
 > **Remember, only you can build your dreams!**

@@ -36,7 +36,7 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
 
 /*:
  * @target MZ
- * @plugindesc v1.0.1 Additional event triggers and commands.
+ * @plugindesc MZ v1.0.1 Additional event triggers and commands.
  * @author Tyruswoo and McKathlin
  * @url https://www.tyruswoo.com
  * 

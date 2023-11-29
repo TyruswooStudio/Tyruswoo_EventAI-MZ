@@ -36,7 +36,7 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
 
 /*:
  * @target MZ
- * @plugindesc MZ v2.3.1 Additional event triggers and commands.
+ * @plugindesc MZ v2.3.2 Additional event triggers and commands.
  * @author Tyruswoo and McKathlin
  * @url https://www.tyruswoo.com
  * 
@@ -636,6 +636,9 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
  * v2.3.1  8/30/2023
  *        - This plugin is now free and open source under the MIT license.
  *
+ * v2.3.2  11/29/2023
+ *        - Fixed a bug that was keeping Unset Sound Effect from working.
+ * 
  * ============================================================================
  * MIT License
  *
@@ -3037,7 +3040,7 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
 	// Sets the character's latest sound effect to nothing.
 	// This ensures that next time setSe is called, the sound will play.
 	Game_Character.prototype.unsetSe = function(soundName) {
-		this._se = null;
+		this._seName = null;
 		this.processNext();
 	};
 

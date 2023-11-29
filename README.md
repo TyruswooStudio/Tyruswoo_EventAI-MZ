@@ -563,6 +563,9 @@ For more help using the Event AI plugin, see [Tyruswoo.com](https://www.tyruswoo
 **v2.3.1** - 8/30/2023
 - This plugin is now free and open source under the [MIT license](https://opensource.org/license/mit/).
 
+**v2.3.2** - 11/29/2023
+- Fixed a bug that was keeping Unset Sound Effect from working.
+
 > **Remember, only you can build your dreams!**
 >
 > *Tyruswoo*

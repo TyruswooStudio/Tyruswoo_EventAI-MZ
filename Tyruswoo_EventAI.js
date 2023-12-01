@@ -36,7 +36,7 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
 
 /*:
  * @target MZ
- * @plugindesc MZ v2.3.2 Additional event triggers and commands.
+ * @plugindesc MZ v2.3.3 Additional event triggers and commands.
  * @author Tyruswoo and McKathlin
  * @url https://www.tyruswoo.com
  * 
@@ -638,6 +638,10 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
  *
  * v2.3.2  11/29/2023
  *        - Fixed a bug that was keeping Unset Sound Effect from working.
+ * 
+ * v2.3.3  ??/??/2023
+ *        - Fixed a bug where the player's action button failed to trigger
+ *          Party Touch events.
  * 
  * ============================================================================
  * MIT License
@@ -1593,6 +1597,24 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
 	//=============================================================================
 	// Party Touch Event Trigger
 	//=============================================================================
+
+	// Alias method
+	Tyruswoo.EventAI.Game_Player_triggerButtonAction =
+		Game_Player.prototype.triggerButtonAction;
+	Game_Player.prototype.triggerButtonAction = function() {
+		// First, try the usual.
+		if (Tyruswoo.EventAI.Game_Player_triggerButtonAction.call(this)) {
+			return true;
+		}
+		// If nothing comes of that, check for a party touch event to trigger.
+		if (Input.isTriggered("ok")) {
+			this.checkEventTriggerThere([Tyruswoo.EventAI.TriggerCode.partyTouch]);
+			if ($gameMap.setupStartingEvent()) {
+				return true;
+			}
+		}
+		return false;
+	};
 
 	// Replacement method
 	// Like original, except that touch triggers that can be initiated by player

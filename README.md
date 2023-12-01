@@ -566,6 +566,9 @@ For more help using the Event AI plugin, see [Tyruswoo.com](https://www.tyruswoo
 **v2.3.2** - 11/29/2023
 - Fixed a bug that was keeping Unset Sound Effect from working.
 
+**v2.3.3** - ??/??/2023
+- Fixed a bug where player's action button failed to trigger Party Touch events.
+
 > **Remember, only you can build your dreams!**
 >
 > *Tyruswoo*

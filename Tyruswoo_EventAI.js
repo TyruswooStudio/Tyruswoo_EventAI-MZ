@@ -642,6 +642,8 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
  * v2.3.3  ??/??/2023
  *        - Fixed a bug where the player's action button failed to trigger
  *          Party Touch events.
+ *        - Fixed a bug where generated events could not remember their
+ *          startLoc (starting location).
  * 
  * ============================================================================
  * MIT License
@@ -2901,13 +2903,20 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
 		},
 		set: function(value) {
 			this._start = { x: value.x, y: value.y };
+			
 			// Mark start changed.
 			$gameEventOrigins.set(this._mapId, this._eventId, value.x, value.y);
+
 			// Set the event data's coordinates to match the new origin.
-			const event = $dataMap.events[this._eventId];
+			const event = $dataMap.events[this._eventId] || {};
 			event.x = value.x;
 			event.y = value.y;
 			event.tyruswoo_origin_checked = true; // Mark up-to-date.
+
+			// If it's a newly generated event, add it to $dataMap.
+			if (!$dataMap.events[this._eventId]) {
+			    $dataMap.events[this._eventId] = event;
+			}
 		}
 	});
 

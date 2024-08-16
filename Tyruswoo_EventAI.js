@@ -585,7 +585,7 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
  *   whether to trigger a region entry event.
  * 
  * ============================================================================
- * For more help using the Event AI plugin, see Tyruswoo.com.
+ * Visit Tyruswoo.com to ask for help, donate, or browse more of our plugins.
  * ============================================================================
  * Version History:
  *

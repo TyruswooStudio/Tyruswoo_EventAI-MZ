@@ -512,7 +512,7 @@ A similar default script call finds the current map's ID:
   move route, to ensure the player's next step can correctly determine
   whether to trigger a region entry event.
 
-For more help using the Event AI plugin, see [Tyruswoo.com](https://www.tyruswoo.com).
+### Visit [**Tyruswoo.com**](https://www.tyruswoo.com) to [ask for help](https://www.tyruswoo.com/contact-us/), [donate](https://www.tyruswoo.com/donate/), or browse more of our [plugins](https://www.tyruswoo.com/downloads/rpg-maker-plugin-downloads/).
 
 ## Version History
 

@@ -566,7 +566,7 @@ A similar default script call finds the current map's ID:
 **v2.3.2** - 11/29/2023
 - Fixed a bug that was keeping Unset Sound Effect from working.
 
-**v2.3.3** - Pending
+**v2.3.3** - 9/23/2024
 - Fixed a bug where player's action button failed to trigger Party Touch events.
 - Fixed a bug where generated events could not remember their startLoc
   (starting location).

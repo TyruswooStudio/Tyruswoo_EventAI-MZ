@@ -639,7 +639,7 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
  * v2.3.2  11/29/2023
  *        - Fixed a bug that was keeping Unset Sound Effect from working.
  * 
- * v2.3.3  ??/??/2023
+ * v2.3.3  9/23/2024
  *        - Fixed a bug where the player's action button failed to trigger
  *          Party Touch events.
  *        - Fixed a bug where generated events could not remember their
@@ -987,6 +987,8 @@ Tyruswoo.EventAI = Tyruswoo.EventAI || {};
 
 	Tyruswoo.EventAI.PLUGIN_COMMAND_CODE = 357;
 	Tyruswoo.EventAI.PLUGIN_COMMAND_ARG_INDEX = 3;
+	
+	Tyruswoo.EventAI.IS_EVENT_GENERATOR_SAFE = true;
 	
 	// Default values for plugin command arguments.
 	const defaultLocation = {"x":"0","y":"0","relativity":"{\"mode\":\"Relative to Event\",\"eventId\":\"\",\"party_member\":\"\",\"orientational_shift\":\"\"}"};
